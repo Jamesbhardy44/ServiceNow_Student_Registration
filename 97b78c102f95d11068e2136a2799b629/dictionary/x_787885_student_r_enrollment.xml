@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Enrollment" max_length="40" name="x_787885_student_r_enrollment" sizeclass="4" type="collection">
+        <element attributes="encode_utf8=false" label="Course Name" max_length="32" name="course_name" reference="x_787885_student_r_courses" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Enrollment Date" max_length="40" name="enrollment_date" type="glide_date"/>
+        <element label="Grade" max_length="32" name="grade" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Student Id" max_length="32" name="student_id" reference="x_787885_student_r_student_details" type="reference"/>
+        <index name="index">
+            <element name="course_name"/>
+        </index>
+        <index name="index2">
+            <element name="student_id"/>
+        </index>
+    </element>
+</database>

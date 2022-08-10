@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Courses" max_length="40" name="x_787885_student_r_courses" sizeclass="5" type="collection">
+        <element label="Count Enrolled" max_length="40" name="count_enrolled" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="150" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="freshman" label="Difficulty" max_length="40" name="difficulty" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Freshman" value="freshman"/>
+                <element inactive_on_update="false" label="Junior" value="junior"/>
+                <element inactive_on_update="false" label="Senior" value="senior"/>
+                <element inactive_on_update="false" label="Sohpomore" value="sohpomore"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="150" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
