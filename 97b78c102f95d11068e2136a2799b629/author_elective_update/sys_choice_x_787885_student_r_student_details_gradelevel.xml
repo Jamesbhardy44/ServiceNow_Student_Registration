@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="gradelevel" table="x_787885_student_r_student_details" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>gradelevel</element>
+            <name>x_787885_student_r_student_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 19:28:41</sys_created_on>
+            <sys_id>733dcd5c2f15151068e2136a2799b656</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>gradelevel</sys_name>
+            <sys_package display_value="Student Registration" source="x_787885_student_r">97b78c102f95d11068e2136a2799b629</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student Registration">97b78c102f95d11068e2136a2799b629</sys_scope>
+            <sys_update_name>sys_choice_x_787885_student_r_student_details_gradelevel</sys_update_name>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 19:28:41</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gradelevel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Freshman</label>
+            <language>en</language>
+            <name>x_787885_student_r_student_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 19:28:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb3dcd5c2f15151068e2136a2799b655</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 19:28:41</sys_updated_on>
+            <value>Freshman</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gradelevel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sophomore</label>
+            <language>en</language>
+            <name>x_787885_student_r_student_details</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 19:28:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7b3dcd5c2f15151068e2136a2799b657</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 19:28:41</sys_updated_on>
+            <value>Sophomore</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gradelevel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Junior</label>
+            <language>en</language>
+            <name>x_787885_student_r_student_details</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 19:28:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b3dcd5c2f15151068e2136a2799b658</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 19:28:41</sys_updated_on>
+            <value>Junior</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gradelevel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senior</label>
+            <language>en</language>
+            <name>x_787885_student_r_student_details</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 19:28:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f73dcd5c2f15151068e2136a2799b659</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 19:28:41</sys_updated_on>
+            <value>Senior</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

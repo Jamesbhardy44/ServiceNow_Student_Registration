@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>AutoPopulate Grade based on Student ID Grade</description>
+        <field>student_id</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Grade Level Based on Grade Level</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Auto populate Grade based on studentId grade
+	
+    var studentId = g_form.getValue('student_id');
+    var ga = new GlideAjax('studentDetails');
+    ga.addParam('sysparm_name', 'getStudentGradeLevel');
+    ga.addParam('sysparm_id', studentId);
+
+    ga.getXML(getResponse);
+
+    function getResponse(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+		g_form.setValue('grade', answer);
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-09 20:36:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>beb295902f95151068e2136a2799b60e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set Grade Level Based on Grade Level</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student Registration" source="x_787885_student_r">97b78c102f95d11068e2136a2799b629</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Registration">97b78c102f95d11068e2136a2799b629</sys_scope>
+        <sys_update_name>sys_script_client_beb295902f95151068e2136a2799b60e</sys_update_name>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-09 22:31:54</sys_updated_on>
+        <table>x_787885_student_r_enrollment</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="difficulty" table="x_787885_student_r_courses" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>difficulty</element>
+            <name>x_787885_student_r_courses</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 14:48:33</sys_created_on>
+            <sys_id>d02d0c182f99d11068e2136a2799b660</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>difficulty</sys_name>
+            <sys_package display_value="Student Registration" source="x_787885_student_r">97b78c102f95d11068e2136a2799b629</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student Registration">97b78c102f95d11068e2136a2799b629</sys_scope>
+            <sys_update_name>sys_choice_x_787885_student_r_courses_difficulty</sys_update_name>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 14:48:33</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>difficulty</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Freshman</label>
+            <language>en</language>
+            <name>x_787885_student_r_courses</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 14:48:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>482d0c182f99d11068e2136a2799b65f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 14:48:32</sys_updated_on>
+            <value>freshman</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>difficulty</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Junior</label>
+            <language>en</language>
+            <name>x_787885_student_r_courses</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 14:48:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>982d0c182f99d11068e2136a2799b665</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 14:48:33</sys_updated_on>
+            <value>junior</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>difficulty</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senior</label>
+            <language>en</language>
+            <name>x_787885_student_r_courses</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 14:48:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d42d0c182f99d11068e2136a2799b674</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 14:48:33</sys_updated_on>
+            <value>senior</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>difficulty</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sohpomore</label>
+            <language>en</language>
+            <name>x_787885_student_r_courses</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 14:48:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>142d0c182f99d11068e2136a2799b663</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 14:48:33</sys_updated_on>
+            <value>sohpomore</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

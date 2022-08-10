@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="a5cd01502f55151068e2136a2799b65a" sys_domain="global" table="x_787885_student_r_courses" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 19:32:28</sys_created_on>
+            <sys_id>df1ec9902f55151068e2136a2799b6be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_787885_student_r_courses" sys_domain="global" view="Default view">a5cd01502f55151068e2136a2799b65a</sys_ui_section>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 19:32:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 19:32:28</sys_created_on>
+            <sys_id>531ec9902f55151068e2136a2799b6bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_787885_student_r_courses" sys_domain="global" view="Default view">a5cd01502f55151068e2136a2799b65a</sys_ui_section>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 19:32:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 19:32:28</sys_created_on>
+            <sys_id>d31ec9902f55151068e2136a2799b6bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_787885_student_r_courses" sys_domain="global" view="Default view">a5cd01502f55151068e2136a2799b65a</sys_ui_section>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 19:32:28</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 19:32:28</sys_created_on>
+            <sys_id>571ec9902f55151068e2136a2799b6bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_787885_student_r_courses" sys_domain="global" view="Default view">a5cd01502f55151068e2136a2799b65a</sys_ui_section>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 19:32:28</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>4</position>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 19:32:28</sys_created_on>
+            <sys_id>d71ec9902f55151068e2136a2799b6bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_787885_student_r_courses" sys_domain="global" view="Default view">a5cd01502f55151068e2136a2799b65a</sys_ui_section>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 19:32:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>5</position>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 19:32:28</sys_created_on>
+            <sys_id>5b1ec9902f55151068e2136a2799b6bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_787885_student_r_courses" sys_domain="global" view="Default view">a5cd01502f55151068e2136a2799b65a</sys_ui_section>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 19:32:28</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>difficulty</element>
+            <position>6</position>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 19:32:28</sys_created_on>
+            <sys_id>db1ec9902f55151068e2136a2799b6bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_787885_student_r_courses" sys_domain="global" view="Default view">a5cd01502f55151068e2136a2799b65a</sys_ui_section>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 19:32:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 19:32:28</sys_created_on>
+            <sys_id>5f1ec9902f55151068e2136a2799b6bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_787885_student_r_courses" sys_domain="global" view="Default view">a5cd01502f55151068e2136a2799b65a</sys_ui_section>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 19:32:28</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>count_enrolled</element>
+            <position>8</position>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 19:32:28</sys_created_on>
+            <sys_id>df1ec9902f55151068e2136a2799b6bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_787885_student_r_courses" sys_domain="global" view="Default view">a5cd01502f55151068e2136a2799b65a</sys_ui_section>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 19:32:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_787885_student_r_courses</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-09 19:30:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5cd01502f55151068e2136a2799b65a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_787885_student_r_courses</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Student Registration" source="x_787885_student_r">97b78c102f95d11068e2136a2799b629</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student Registration">97b78c102f95d11068e2136a2799b629</sys_scope>
+            <sys_update_name>sys_ui_section_a5cd01502f55151068e2136a2799b65a</sys_update_name>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-09 19:30:59</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
