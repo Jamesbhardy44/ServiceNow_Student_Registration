@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Courses" max_length="40" name="x_787885_student_r_courses" sizeclass="5" type="collection">
+    <element label="Courses" max_length="40" name="x_787885_student_r_courses" sizeclass="8" type="collection">
         <element label="Count Enrolled" max_length="40" name="count_enrolled" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="150" name="description" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="freshman" label="Difficulty" max_length="40" name="difficulty" type="choice">
@@ -12,5 +12,9 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="150" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Taught By" mandatory="true" max_length="32" name="taught_by" reference="x_787885_student_r_teacher_details" type="reference"/>
+        <index name="index">
+            <element name="taught_by"/>
+        </index>
     </element>
 </database>

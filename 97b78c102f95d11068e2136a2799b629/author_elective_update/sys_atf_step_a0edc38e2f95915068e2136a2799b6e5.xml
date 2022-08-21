@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Open a new 'Student Details' form</description>
+        <display_name>Open a New Form</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Insert student record</notes>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-15 15:20:45</sys_created_on>
+        <sys_id>a0edc38e2f95915068e2136a2799b6e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a New Form</sys_name>
+        <sys_package display_value="Student Registration" source="x_787885_student_r">97b78c102f95d11068e2136a2799b629</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Registration">97b78c102f95d11068e2136a2799b629</sys_scope>
+        <sys_update_name>sys_atf_step_a0edc38e2f95915068e2136a2799b6e5</sys_update_name>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-15 15:20:45</sys_updated_on>
+        <table>x_787885_student_r_student_details</table>
+        <test display_value="Basic Insert">02fccf0e2f95915068e2136a2799b6e5</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=a0edc38e2f95915068e2136a2799b6e5"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a0edc38e2f95915068e2136a2799b6e5</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-15 15:20:46</sys_created_on>
+        <sys_id>320e4fce2f95915068e2136a2799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-15 15:20:46</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">6f2a59a4e7133300b5646ea8c2f6a975</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a0edc38e2f95915068e2136a2799b6e5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-15 15:20:46</sys_created_on>
+        <sys_id>7e0e4fce2f95915068e2136a2799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-15 15:20:46</sys_updated_on>
+        <value>x_787885_student_r_student_details</value>
+        <variable display_value="Table">bb84ed825320220002c6435723dc3400</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a0edc38e2f95915068e2136a2799b6e5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-15 15:20:46</sys_created_on>
+        <sys_id>ba0e4fce2f95915068e2136a2799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-15 15:20:46</sys_updated_on>
+        <value/>
+        <variable display_value="View">27d4e1c25320220002c6435723dc3486</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_05317cd10b10220050192f15d6673af8^id=a0edc38e2f95915068e2136a2799b6e5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student Registration">97b78c102f95d11068e2136a2799b629</application>
+        <file_path/>
+        <instance_id>7da1a8a3dba95780cbf6d5b0cf9619ae</instance_id>
+        <instance_name>dev57082</instance_name>
+        <name>sys_atf_step_a0edc38e2f95915068e2136a2799b6e5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Open a new 'Student Details' form</description><display_name>Open a New Form</display_name><inputs/><mugshots_cache_json/><notes>Insert student record</notes><order>1</order><snapshot/><step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>james_admin</sys_created_by><sys_created_on>2022-08-15 15:20:45</sys_created_on><sys_id>a0edc38e2f95915068e2136a2799b6e5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open a New Form</sys_name><sys_package display_value="Student Registration" source="x_787885_student_r">97b78c102f95d11068e2136a2799b629</sys_package><sys_policy/><sys_scope display_value="Student Registration">97b78c102f95d11068e2136a2799b629</sys_scope><sys_update_name>sys_atf_step_a0edc38e2f95915068e2136a2799b6e5</sys_update_name><sys_updated_by>james_admin</sys_updated_by><sys_updated_on>2022-08-15 15:20:45</sys_updated_on><table>x_787885_student_r_student_details</table><test display_value="Basic Insert">02fccf0e2f95915068e2136a2799b6e5</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=a0edc38e2f95915068e2136a2799b6e5"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a0edc38e2f95915068e2136a2799b6e5</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>james_admin</sys_created_by><sys_created_on>2022-08-15 15:20:46</sys_created_on><sys_id>320e4fce2f95915068e2136a2799b697</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>james_admin</sys_updated_by><sys_updated_on>2022-08-15 15:20:46</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">6f2a59a4e7133300b5646ea8c2f6a975</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a0edc38e2f95915068e2136a2799b6e5</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>james_admin</sys_created_by><sys_created_on>2022-08-15 15:20:46</sys_created_on><sys_id>7e0e4fce2f95915068e2136a2799b697</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>james_admin</sys_updated_by><sys_updated_on>2022-08-15 15:20:46</sys_updated_on><value>x_787885_student_r_student_details</value><variable display_value="Table">bb84ed825320220002c6435723dc3400</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a0edc38e2f95915068e2136a2799b6e5</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>james_admin</sys_created_by><sys_created_on>2022-08-15 15:20:46</sys_created_on><sys_id>ba0e4fce2f95915068e2136a2799b697</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>james_admin</sys_updated_by><sys_updated_on>2022-08-15 15:20:46</sys_updated_on><value/><variable display_value="View">27d4e1c25320220002c6435723dc3486</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_05317cd10b10220050192f15d6673af8^id=a0edc38e2f95915068e2136a2799b6e5"/></record_update>]]></payload>
+        <payload_hash>-558670863</payload_hash>
+        <record_name>Open a New Form</record_name>
+        <reverted_from/>
+        <source>4a7c876c2fd5111068e2136a2799b64f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-15 15:20:46</sys_created_on>
+        <sys_id>760e4fce2f95915068e2136a2799b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182a217d2070000001</sys_recorded_at>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-15 15:20:46</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>be0e4fce959591502b1c8abc0eccab99</update_guid>
+        <update_guid_history>be0e4fce959591502b1c8abc0eccab99:-558670863</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-19 17:44:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>45fd98df251a4ea385cd60e4593dfa29</sys_id>
+        <sys_metadata>a0edc38e2f95915068e2136a2799b6e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a New Form</sys_name>
+        <sys_package display_value="Student Registration" source="x_787885_student_r">97b78c102f95d11068e2136a2799b629</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student Registration">97b78c102f95d11068e2136a2799b629</sys_scope>
+        <sys_scope_delete display_value="">688a07fc3c2b4857b9d5ad15082c8ab1</sys_scope_delete>
+        <sys_update_name>sys_atf_step_a0edc38e2f95915068e2136a2799b6e5</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_a0edc38e2f95915068e2136a2799b6e5">760e4fce2f95915068e2136a2799b69a</sys_update_version>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-19 17:44:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

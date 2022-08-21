@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="phone_number" table="x_787885_student_r_student_details">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="name" table="x_787885_student_r_teacher_details">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Phone number</column_label>
+        <column_label>Name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,15 +27,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>phone_number</element>
+        <element>name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">phone_number_e164</internal_type>
-        <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_787885_student_r_student_details</name>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>264</max_length>
+        <name>x_787885_student_r_teacher_details</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -47,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>james_admin</sys_created_by>
-        <sys_created_on>2022-08-09 14:42:34</sys_created_on>
-        <sys_id>bccb8c142f99d11068e2136a2799b693</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Phone number</sys_name>
+        <sys_created_on>2022-08-16 21:29:09</sys_created_on>
+        <sys_id>78bbada62f9d111068e2136a2799b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Name</sys_name>
         <sys_package display_value="Student Registration" source="x_787885_student_r">97b78c102f95d11068e2136a2799b629</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student Registration">97b78c102f95d11068e2136a2799b629</sys_scope>
-        <sys_update_name>sys_dictionary_x_787885_student_r_student_details_phone_number</sys_update_name>
+        <sys_update_name>sys_dictionary_x_787885_student_r_teacher_details_name</sys_update_name>
         <sys_updated_by>james_admin</sys_updated_by>
-        <sys_updated_on>2022-08-15 15:34:19</sys_updated_on>
+        <sys_updated_on>2022-08-16 21:29:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

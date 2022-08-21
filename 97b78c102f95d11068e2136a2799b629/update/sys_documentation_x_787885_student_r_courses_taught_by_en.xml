@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="taught_by" label="Taught By" language="en" table="x_787885_student_r_courses">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>taught_by</element>
+            <help/>
+            <hint/>
+            <label>Taught By</label>
+            <language>en</language>
+            <name>x_787885_student_r_courses</name>
+            <plural>Taught Bys</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>james_admin</sys_created_by>
+            <sys_created_on>2022-08-16 21:34:40</sys_created_on>
+            <sys_id>a13d25ea2f9d111068e2136a2799b67c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Taught By</sys_name>
+            <sys_package display_value="Student Registration" source="x_787885_student_r">97b78c102f95d11068e2136a2799b629</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student Registration">97b78c102f95d11068e2136a2799b629</sys_scope>
+            <sys_update_name>sys_documentation_x_787885_student_r_courses_taught_by_en</sys_update_name>
+            <sys_updated_by>james_admin</sys_updated_by>
+            <sys_updated_on>2022-08-16 21:34:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

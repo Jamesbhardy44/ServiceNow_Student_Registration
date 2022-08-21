@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>test that the record is inserted</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>Basic- INSERT StudentDetails</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-21 21:35:15</sys_created_on>
+        <sys_id>732d13c42fe1d51068e2136a2799b66c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Basic- INSERT StudentDetails</sys_name>
+        <sys_package display_value="Student Registration" source="x_787885_student_r">97b78c102f95d11068e2136a2799b629</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Registration">97b78c102f95d11068e2136a2799b629</sys_scope>
+        <sys_update_name>sys_atf_test_732d13c42fe1d51068e2136a2799b66c</sys_update_name>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-21 21:35:15</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=732d13c42fe1d51068e2136a2799b66c"/>
+</record_update>
