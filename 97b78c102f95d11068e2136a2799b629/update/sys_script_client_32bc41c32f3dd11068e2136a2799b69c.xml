@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>getDetailsOfStudent</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var student = g_form.getValue('name');
+    var ga = new GlideAjax('studentDetails');
+    ga.addParam('sysparm_name', 'getStudentDetails');
+    ga.addParam('sysparm_id', student);
+    ga.addParam('sysparm_field', 'is_new');
+    ga.getXML(getResponse);
+
+    function getResponse(response) {
+        var payLoad = response.responseXML.documentElement.getAttribute('answer');
+        if (!payLoad) {
+            return g_form.addErrorMessage('There was a problem with the response');
+        }
+        alert('Student Data: ' + payLoad);
+        return payLoad;
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-09-12 05:10:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>32bc41c32f3dd11068e2136a2799b69c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getDetailsOfStudent</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student Registration" source="x_787885_student_r">97b78c102f95d11068e2136a2799b629</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Registration">97b78c102f95d11068e2136a2799b629</sys_scope>
+        <sys_update_name>sys_script_client_32bc41c32f3dd11068e2136a2799b69c</sys_update_name>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 05:10:41</sys_updated_on>
+        <table>x_787885_student_r_student_details</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

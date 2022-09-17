@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Populate grade with student_id.grade</description>
+        <field>student_id</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Enrollment - autoPopulateGrade</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var student = g_form.getValue('student_id');
+	g_form.setValue('grade', student.grade);
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-21 21:58:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>15f12b442f25d51068e2136a2799b6f2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Enrollment - autoPopulateGrade</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student Registration" source="x_787885_student_r">97b78c102f95d11068e2136a2799b629</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Registration">97b78c102f95d11068e2136a2799b629</sys_scope>
+        <sys_update_name>sys_script_client_15f12b442f25d51068e2136a2799b6f2</sys_update_name>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-21 22:05:58</sys_updated_on>
+        <table>x_787885_student_r_enrollment</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student Registration">97b78c102f95d11068e2136a2799b629</application>
+        <file_path/>
+        <instance_id>7da1a8a3dba95780cbf6d5b0cf9619ae</instance_id>
+        <instance_name>dev57082</instance_name>
+        <name>sys_script_client_15f12b442f25d51068e2136a2799b6f2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Populate grade with student_id.grade&lt;/description&gt;&lt;field&gt;student_id&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Enrollment - autoPopulateGrade&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var student = g_form.getValue('student_id');
+	g_form.setValue('grade', student.grade);
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;james_admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-21 21:58:17&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;15f12b442f25d51068e2136a2799b6f2&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Enrollment - autoPopulateGrade&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Student Registration" source="x_787885_student_r"&gt;97b78c102f95d11068e2136a2799b629&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Student Registration"&gt;97b78c102f95d11068e2136a2799b629&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_15f12b442f25d51068e2136a2799b6f2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;james_admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-21 22:05:58&lt;/sys_updated_on&gt;&lt;table&gt;x_787885_student_r_enrollment&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>688928482</payload_hash>
+        <record_name>Enrollment - autoPopulateGrade</record_name>
+        <reverted_from/>
+        <source>4a7c876c2fd5111068e2136a2799b64f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-21 22:05:58</sys_created_on>
+        <sys_id>f0542bc82f25d51068e2136a2799b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182c270f4110000001</sys_recorded_at>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-21 22:05:58</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>b8542bc84c25d510281105f1af34f629</update_guid>
+        <update_guid_history>b8542bc84c25d510281105f1af34f629:688928482,dd23ab44b525d51034a4c421f7514741:294477967,c9b2afc41725d510cb918ae60c972538:-6379979,d092a7c42a25d5107d7fabf40790dbed:-1544721707</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-21 22:06:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1a11531b4f90477f809baba3d968c069</sys_id>
+        <sys_metadata>15f12b442f25d51068e2136a2799b6f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enrollment - autoPopulateGrade</sys_name>
+        <sys_package display_value="Student Registration" source="x_787885_student_r">97b78c102f95d11068e2136a2799b629</sys_package>
+        <sys_parent display_value="Enrollment">bf0718d02f1dd11068e2136a2799b65d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Student Registration">97b78c102f95d11068e2136a2799b629</sys_scope>
+        <sys_scope_delete display_value="">688a07fc3c2b4857b9d5ad15082c8ab1</sys_scope_delete>
+        <sys_update_name>sys_script_client_15f12b442f25d51068e2136a2799b6f2</sys_update_name>
+        <sys_update_version display_value="sys_script_client_15f12b442f25d51068e2136a2799b6f2">f0542bc82f25d51068e2136a2799b62a</sys_update_version>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-21 22:06:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
