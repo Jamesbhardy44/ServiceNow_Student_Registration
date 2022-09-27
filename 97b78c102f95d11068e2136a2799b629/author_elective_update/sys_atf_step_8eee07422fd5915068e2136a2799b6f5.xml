@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Open the record '{{Step 3: Submit a Form.Record}}' in the 'Enrollment-&gt;Student Id' related list on the 'Student Details' form</description>
+        <display_name>Open a Record in List</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>6</order>
+        <snapshot/>
+        <step_config display_value="Open a Record in List">0200ac2fe72003005c85cd19d2f6a942</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-15 15:24:46</sys_created_on>
+        <sys_id>8eee07422fd5915068e2136a2799b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a Record in List</sys_name>
+        <sys_package display_value="Student Registration" source="x_787885_student_r">97b78c102f95d11068e2136a2799b629</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Registration">97b78c102f95d11068e2136a2799b629</sys_scope>
+        <sys_update_name>sys_atf_step_8eee07422fd5915068e2136a2799b6f5</sys_update_name>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-15 15:24:46</sys_updated_on>
+        <table>x_787885_student_r_student_details</table>
+        <test display_value="Basic Insert">02fccf0e2f95915068e2136a2799b6e5</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=8eee07422fd5915068e2136a2799b6f5"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>8eee07422fd5915068e2136a2799b6f5</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-15 15:24:47</sys_created_on>
+        <sys_id>21fec3822fd5915068e2136a2799b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-15 15:24:47</sys_updated_on>
+        <value/>
+        <variable display_value="Record">b076e295531233009e02ddeeff7b12d9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>8eee07422fd5915068e2136a2799b6f5</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-15 15:24:47</sys_created_on>
+        <sys_id>2dfec3822fd5915068e2136a2799b67b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-15 15:24:47</sys_updated_on>
+        <value>related_list</value>
+        <variable display_value="List type">b8c89a36538333009e02ddeeff7b12f6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>8eee07422fd5915068e2136a2799b6f5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-15 15:24:47</sys_created_on>
+        <sys_id>69fec3822fd5915068e2136a2799b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-15 15:24:47</sys_updated_on>
+        <value>x_787885_student_r_student_details</value>
+        <variable display_value="Table">6fb0a06fe72003005c85cd19d2f6a9da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>8eee07422fd5915068e2136a2799b6f5</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-15 15:24:47</sys_created_on>
+        <sys_id>a5fec3822fd5915068e2136a2799b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-15 15:24:47</sys_updated_on>
+        <value>x_787885_student_r_enrollment</value>
+        <variable display_value="Related list table">c181286fe72003005c85cd19d2f6a93b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>8eee07422fd5915068e2136a2799b6f5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-15 15:24:47</sys_created_on>
+        <sys_id>e1fec3822fd5915068e2136a2799b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-15 15:24:47</sys_updated_on>
+        <value>x_787885_student_r_enrollment.student_id</value>
+        <variable display_value="Related list">5121646fe72003005c85cd19d2f6a99a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=8eee07422fd5915068e2136a2799b6f5"/>
+    <sys_element_mapping action="DELETE">
+        <field>record_id</field>
+        <id>8eee07422fd5915068e2136a2799b6f5</id>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-15 15:24:47</sys_created_on>
+        <sys_id>a9fec3822fd5915068e2136a2799b67b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-15 15:24:47</sys_updated_on>
+        <table>var__m_atf_input_variable_0200ac2fe72003005c85cd19d2f6a942</table>
+        <value>{{step['f74e078e2f95915068e2136a2799b654'].record_id}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student Registration">97b78c102f95d11068e2136a2799b629</application>
+        <file_path/>
+        <instance_id>7da1a8a3dba95780cbf6d5b0cf9619ae</instance_id>
+        <instance_name>dev57082</instance_name>
+        <name>sys_atf_step_8eee07422fd5915068e2136a2799b6f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Open the record '{{Step 3: Submit a Form.Record}}' in the 'Enrollment-&gt;Student Id' related list on the 'Student Details' form</description><display_name>Open a Record in List</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>6</order><snapshot/><step_config display_value="Open a Record in List">0200ac2fe72003005c85cd19d2f6a942</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>james_admin</sys_created_by><sys_created_on>2022-08-15 15:24:46</sys_created_on><sys_id>8eee07422fd5915068e2136a2799b6f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open a Record in List</sys_name><sys_package display_value="Student Registration" source="x_787885_student_r">97b78c102f95d11068e2136a2799b629</sys_package><sys_policy/><sys_scope display_value="Student Registration">97b78c102f95d11068e2136a2799b629</sys_scope><sys_update_name>sys_atf_step_8eee07422fd5915068e2136a2799b6f5</sys_update_name><sys_updated_by>james_admin</sys_updated_by><sys_updated_on>2022-08-15 15:24:46</sys_updated_on><table>x_787885_student_r_student_details</table><test display_value="Basic Insert">02fccf0e2f95915068e2136a2799b6e5</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=8eee07422fd5915068e2136a2799b6f5"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>8eee07422fd5915068e2136a2799b6f5</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>james_admin</sys_created_by><sys_created_on>2022-08-15 15:24:47</sys_created_on><sys_id>21fec3822fd5915068e2136a2799b67c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>james_admin</sys_updated_by><sys_updated_on>2022-08-15 15:24:47</sys_updated_on><value/><variable display_value="Record">b076e295531233009e02ddeeff7b12d9</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>8eee07422fd5915068e2136a2799b6f5</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>james_admin</sys_created_by><sys_created_on>2022-08-15 15:24:47</sys_created_on><sys_id>2dfec3822fd5915068e2136a2799b67b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>james_admin</sys_updated_by><sys_updated_on>2022-08-15 15:24:47</sys_updated_on><value>related_list</value><variable display_value="List type">b8c89a36538333009e02ddeeff7b12f6</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>8eee07422fd5915068e2136a2799b6f5</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>james_admin</sys_created_by><sys_created_on>2022-08-15 15:24:47</sys_created_on><sys_id>69fec3822fd5915068e2136a2799b67c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>james_admin</sys_updated_by><sys_updated_on>2022-08-15 15:24:47</sys_updated_on><value>x_787885_student_r_student_details</value><variable display_value="Table">6fb0a06fe72003005c85cd19d2f6a9da</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>8eee07422fd5915068e2136a2799b6f5</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>james_admin</sys_created_by><sys_created_on>2022-08-15 15:24:47</sys_created_on><sys_id>a5fec3822fd5915068e2136a2799b67c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>james_admin</sys_updated_by><sys_updated_on>2022-08-15 15:24:47</sys_updated_on><value>x_787885_student_r_enrollment</value><variable display_value="Related list table">c181286fe72003005c85cd19d2f6a93b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>8eee07422fd5915068e2136a2799b6f5</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>james_admin</sys_created_by><sys_created_on>2022-08-15 15:24:47</sys_created_on><sys_id>e1fec3822fd5915068e2136a2799b67c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>james_admin</sys_updated_by><sys_updated_on>2022-08-15 15:24:47</sys_updated_on><value>x_787885_student_r_enrollment.student_id</value><variable display_value="Related list">5121646fe72003005c85cd19d2f6a99a</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=8eee07422fd5915068e2136a2799b6f5"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>record_id</field><id>8eee07422fd5915068e2136a2799b6f5</id><sys_created_by>james_admin</sys_created_by><sys_created_on>2022-08-15 15:24:47</sys_created_on><sys_id>a9fec3822fd5915068e2136a2799b67b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>james_admin</sys_updated_by><sys_updated_on>2022-08-15 15:24:47</sys_updated_on><table>var__m_atf_input_variable_0200ac2fe72003005c85cd19d2f6a942</table><value>{{step['f74e078e2f95915068e2136a2799b654'].record_id}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>1086975365</payload_hash>
+        <record_name>Open a Record in List</record_name>
+        <reverted_from/>
+        <source>4a7c876c2fd5111068e2136a2799b64f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-15 15:24:47</sys_created_on>
+        <sys_id>29fec3822fd5915068e2136a2799b67f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182a21b7e7d0000001</sys_recorded_at>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-15 15:24:47</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>61fec38269d5915089114e251f41547f</update_guid>
+        <update_guid_history>61fec38269d5915089114e251f41547f:1086975365</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-15 15:37:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>47c500d5c4f245e1a772c289151f20c9</sys_id>
+        <sys_metadata>8eee07422fd5915068e2136a2799b6f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a Record in List</sys_name>
+        <sys_package display_value="Student Registration" source="x_787885_student_r">97b78c102f95d11068e2136a2799b629</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student Registration">97b78c102f95d11068e2136a2799b629</sys_scope>
+        <sys_scope_delete display_value="">688a07fc3c2b4857b9d5ad15082c8ab1</sys_scope_delete>
+        <sys_update_name>sys_atf_step_8eee07422fd5915068e2136a2799b6f5</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_8eee07422fd5915068e2136a2799b6f5">29fec3822fd5915068e2136a2799b67f</sys_update_version>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-15 15:37:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

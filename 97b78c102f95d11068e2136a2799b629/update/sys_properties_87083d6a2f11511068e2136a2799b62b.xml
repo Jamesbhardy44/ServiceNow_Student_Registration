@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.text_search.enable_fallback_number_search</name>
+        <read_roles/>
+        <suffix>x_787885_student_r</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>james_admin</sys_created_by>
+        <sys_created_on>2022-08-16 22:22:01</sys_created_on>
+        <sys_id>87083d6a2f11511068e2136a2799b62b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.text_search.enable_fallback_number_search</sys_name>
+        <sys_package display_value="Student Registration" source="x_787885_student_r">97b78c102f95d11068e2136a2799b629</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Registration">97b78c102f95d11068e2136a2799b629</sys_scope>
+        <sys_update_name>sys_properties_87083d6a2f11511068e2136a2799b62b</sys_update_name>
+        <sys_updated_by>james_admin</sys_updated_by>
+        <sys_updated_on>2022-08-16 22:22:01</sys_updated_on>
+        <type>string</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=87083d6a2f11511068e2136a2799b62b"/>
+</record_update>
